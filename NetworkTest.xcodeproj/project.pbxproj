@@ -14,6 +14,8 @@
 		4371A93028CB59C800ED55D0 /* NetworkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A92F28CB59C800ED55D0 /* NetworkTestTests.swift */; };
 		4371A93A28CB59C800ED55D0 /* NetworkTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A93928CB59C800ED55D0 /* NetworkTestUITests.swift */; };
 		4371A93C28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A93B28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift */; };
+		4371A94A28CB5EC300ED55D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A94928CB5EC300ED55D0 /* User.swift */; };
+		4371A94D28CB623600ED55D0 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A94C28CB623600ED55D0 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4371A93528CB59C800ED55D0 /* NetworkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4371A93928CB59C800ED55D0 /* NetworkTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestUITests.swift; sourceTree = "<group>"; };
 		4371A93B28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4371A94928CB5EC300ED55D0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4371A94C28CB623600ED55D0 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		4371A91D28CB59C600ED55D0 /* NetworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				4371A94B28CB621900ED55D0 /* Service */,
+				4371A94828CB5EB000ED55D0 /* Models */,
 				4371A91E28CB59C600ED55D0 /* NetworkTestApp.swift */,
 				4371A92028CB59C600ED55D0 /* ContentView.swift */,
 				4371A92228CB59C700ED55D0 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				4371A93B28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift */,
 			);
 			path = NetworkTestUITests;
+			sourceTree = "<group>";
+		};
+		4371A94828CB5EB000ED55D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4371A94928CB5EC300ED55D0 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4371A94B28CB621900ED55D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4371A94C28CB623600ED55D0 /* UserService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4371A94D28CB623600ED55D0 /* UserService.swift in Sources */,
 				4371A92128CB59C600ED55D0 /* ContentView.swift in Sources */,
 				4371A91F28CB59C600ED55D0 /* NetworkTestApp.swift in Sources */,
+				4371A94A28CB5EC300ED55D0 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
