@@ -13,8 +13,9 @@ struct NetworkTestApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(userServie)
+            UserList()
+//            ContentView()
+//                .environmentObject(userServie)
         }
     }
 }
