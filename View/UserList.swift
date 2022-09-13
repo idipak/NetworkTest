@@ -18,6 +18,10 @@ struct UserList: View {
             }
         }
         .onAppear(){
+            
+            Task{
+                await service.asyncRequest()
+            }
         
 //            service.anotherGetUser()
         }
