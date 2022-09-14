@@ -8,19 +8,16 @@
 import SwiftUI
 
 struct UserList: View {
-    @StateObject private var service = UserService2()
+    @StateObject private var repo = Repository()
     
     var body: some View {
-        List(service.users){ user in
-            HStack{
-                Text(user.name)
-                Text(user.email)
-            }
+        List(repo.users){ user in
+            ListItem(title: user.name, subTitle: user.email)
         }
         .onAppear(){
             
             Task{
-                await service.asyncRequest()
+                await repo.asyncRequest()
             }
         
 //            service.anotherGetUser()

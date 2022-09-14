@@ -8,7 +8,7 @@
 import Foundation
 
 
-class UserService2: ObservableObject{
+class Repository: ObservableObject{
     let service = UserService()
     
     @Published var users: [User] = []

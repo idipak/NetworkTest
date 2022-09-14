@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		435E5CE028CCAF81007B18A9 /* UserService2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E5CDF28CCAF81007B18A9 /* UserService2.swift */; };
+		435E5CE028CCAF81007B18A9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E5CDF28CCAF81007B18A9 /* Repository.swift */; };
 		435E5CE328CCB05E007B18A9 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E5CE228CCB05E007B18A9 /* UserList.swift */; };
 		4371A91F28CB59C600ED55D0 /* NetworkTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A91E28CB59C600ED55D0 /* NetworkTestApp.swift */; };
 		4371A92128CB59C600ED55D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A92028CB59C600ED55D0 /* ContentView.swift */; };
@@ -18,6 +18,7 @@
 		4371A93C28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A93B28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift */; };
 		4371A94A28CB5EC300ED55D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A94928CB5EC300ED55D0 /* User.swift */; };
 		4371A94D28CB623600ED55D0 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A94C28CB623600ED55D0 /* UserService.swift */; };
+		43DD295428D0AB2D00A0D147 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD295328D0AB2D00A0D147 /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		435E5CDF28CCAF81007B18A9 /* UserService2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService2.swift; sourceTree = "<group>"; };
+		435E5CDF28CCAF81007B18A9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		435E5CE228CCB05E007B18A9 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 		4371A91B28CB59C600ED55D0 /* NetworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4371A91E28CB59C600ED55D0 /* NetworkTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestApp.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		4371A93B28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4371A94928CB5EC300ED55D0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4371A94C28CB623600ED55D0 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		43DD295328D0AB2D00A0D147 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				435E5CE228CCB05E007B18A9 /* UserList.swift */,
+				43DD295328D0AB2D00A0D147 /* ListItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				4371A94C28CB623600ED55D0 /* UserService.swift */,
-				435E5CDF28CCAF81007B18A9 /* UserService2.swift */,
+				435E5CDF28CCAF81007B18A9 /* Repository.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -294,7 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4371A94D28CB623600ED55D0 /* UserService.swift in Sources */,
-				435E5CE028CCAF81007B18A9 /* UserService2.swift in Sources */,
+				43DD295428D0AB2D00A0D147 /* ListItem.swift in Sources */,
+				435E5CE028CCAF81007B18A9 /* Repository.swift in Sources */,
 				4371A92128CB59C600ED55D0 /* ContentView.swift in Sources */,
 				4371A91F28CB59C600ED55D0 /* NetworkTestApp.swift in Sources */,
 				435E5CE328CCB05E007B18A9 /* UserList.swift in Sources */,
