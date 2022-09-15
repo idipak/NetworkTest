@@ -12,7 +12,12 @@ struct UserList: View {
     
     var body: some View {
         List(repo.users){ user in
-            ListItem(title: user.name, subTitle: user.email)
+            NavigationLink {
+                DetailView(isFav: .constant(true), user: user)
+            } label: {
+                ListItem(title: user.name, subTitle: user.email)
+            }
+
         }
         .onAppear(){
             

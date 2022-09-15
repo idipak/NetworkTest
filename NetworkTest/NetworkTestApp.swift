@@ -10,10 +10,13 @@ import SwiftUI
 @main
 struct NetworkTestApp: App {
     var userServie = UserService()
-    
+    @StateObject var repo = Repository()
     var body: some Scene {
         WindowGroup {
-            UserList()
+            NavigationView{
+                UserList()
+                    .environmentObject(repo)
+            }
 //            ContentView()
 //                .environmentObject(userServie)
         }

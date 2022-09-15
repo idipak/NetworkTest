@@ -25,6 +25,7 @@ struct ListItem: View {
         .padding(.horizontal)
         .frame(height: 80)
         .background(Color.mint)
+        .navigationTitle("User List")
         
     }
 }

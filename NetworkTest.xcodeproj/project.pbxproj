@@ -18,6 +18,7 @@
 		4371A93C28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A93B28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift */; };
 		4371A94A28CB5EC300ED55D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A94928CB5EC300ED55D0 /* User.swift */; };
 		4371A94D28CB623600ED55D0 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4371A94C28CB623600ED55D0 /* UserService.swift */; };
+		43797C8C28D1FC0D008D889F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43797C8B28D1FC0D008D889F /* DetailView.swift */; };
 		43DD295428D0AB2D00A0D147 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD295328D0AB2D00A0D147 /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		4371A93B28CB59C800ED55D0 /* NetworkTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4371A94928CB5EC300ED55D0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4371A94C28CB623600ED55D0 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		43797C8B28D1FC0D008D889F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		43DD295328D0AB2D00A0D147 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 			children = (
 				435E5CE228CCB05E007B18A9 /* UserList.swift */,
 				43DD295328D0AB2D00A0D147 /* ListItem.swift */,
+				43797C8B28D1FC0D008D889F /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4371A94D28CB623600ED55D0 /* UserService.swift in Sources */,
+				43797C8C28D1FC0D008D889F /* DetailView.swift in Sources */,
 				43DD295428D0AB2D00A0D147 /* ListItem.swift in Sources */,
 				435E5CE028CCAF81007B18A9 /* Repository.swift in Sources */,
 				4371A92128CB59C600ED55D0 /* ContentView.swift in Sources */,

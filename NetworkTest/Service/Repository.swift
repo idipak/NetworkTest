@@ -12,6 +12,15 @@ class Repository: ObservableObject{
     let service = UserService()
     
     @Published var users: [User] = []
+    @Published var favoriteIDList: [Int] = []
+    
+    func addToFavorite(id: Int){
+        favoriteIDList.append(id)
+    }
+    
+    func removeFav(id: Int){
+        favoriteIDList.removeAll {$0 == id}
+    }
     
     func anotherGetUser(){
         service.getUserCompletion {[weak self] result in
