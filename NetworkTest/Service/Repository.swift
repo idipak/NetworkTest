@@ -22,6 +22,13 @@ class Repository: ObservableObject{
         favoriteIDList.removeAll {$0 == id}
     }
     
+    func chackFav(id: Int) -> Bool{
+        if favoriteIDList.contains(id){
+            return true
+        }
+        return false
+    }
+    
     func anotherGetUser(){
         service.getUserCompletion {[weak self] result in
             switch result {

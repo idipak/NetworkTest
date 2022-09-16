@@ -14,9 +14,17 @@ struct DetailView: View {
     var body: some View {
         VStack{
             Text(user.name)
-            Toggle(isOn: $isFav) {
-                Text("Favorite")
-            }
+            Image(systemName: "star.fill")
+                .frame(width: 32, height: 32)
+                .foregroundColor(Color.blue)
+                .onTapGesture {
+                    if repo.chackFav(id: user.id){
+                        repo.removeFav(id: user.id)
+                    } else {
+                        repo.addToFavorite(id: user.id)
+                    }
+                }
+                
         }.padding()
         .onAppear{
             

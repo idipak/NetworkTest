@@ -19,6 +19,8 @@ struct UserList: View {
             }
 
         }
+        .environmentObject(repo)
+        .listStyle(.sidebar)
         .onAppear(){
             
             Task{
